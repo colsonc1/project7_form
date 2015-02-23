@@ -1,0 +1,22 @@
+
+      <div class="row">
+        <div class="col-md-6">
+          <%
+            timeDisplayMonth = @time.month
+            timeDisplayYear = @time.year
+          %>
+
+          <h1>Holidays for this Month ( <%= timeDisplayMonth  %>, <%= timeDisplayYear %> )</h1>
+
+          <% @holidays.each do |holiday| %>
+            <%= holiday["name"] %>, <%= holiday["date"] %><br>
+          <% end %>
+
+          <h1>Holidays for Chuck's Birthday month April</h1>
+
+          <% @birthdayHolidays.each do |holiday| %>
+            <%= holiday["name"] %>, <%= holiday["date"] %> <br>
+          <% end %>
+
+        </div>
+      </div>

@@ -1,0 +1,674 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>tc359-project6/bootstrap-theme.css.map at master · sarteleb/tc359-project6</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="sarteleb/tc359-project6" name="twitter:title" /><meta content="Contribute to tc359-project6 development by creating an account on GitHub." name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/5514464?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/5514464?v=3&amp;s=400" property="og:image" /><meta content="sarteleb/tc359-project6" property="og:title" /><meta content="https://github.com/sarteleb/tc359-project6" property="og:url" /><meta content="Contribute to tc359-project6 development by creating an account on GitHub." property="og:description" />
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    <link rel="xhr-socket" href="/_sockets">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="23141C29:0FF4:1A10342A:54EB8DE4" name="octolytics-dimension-request_id" /><meta content="5367121" name="octolytics-actor-id" /><meta content="colsonc1" name="octolytics-actor-login" /><meta content="603665ff2d4e463019ad6f558c4a61be8d631aedc4fbfe4ca4485100378ffb8c" name="octolytics-actor-hash" />
+    
+    <meta content="Rails, view, blob#show" name="analytics-event" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="p6Wr0pMlbqwd6vCV5Agr+JNRrn9zr3GxWIMoqVut4tu5OGf8s0mYEXVbgMssCHyxNp0dR9zTOCcIXH+0RabTMQ==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-951e64287f8bc97e9b47e510c3be2de006cf747d5c833af0f3389ecb49313596.css" media="all" rel="stylesheet" />
+    <link href="https://assets-cdn.github.com/assets/github2-f7073494168d35df2845fccdae3f73cb69dc51cf65c42dccd9cefb67ee814256.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="ff2bf9acbe8f45ac50266d67d8061de7">
+
+      
+  <meta name="description" content="Contribute to tc359-project6 development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/sarteleb/tc359-project6 git https://github.com/sarteleb/tc359-project6.git">
+
+  <meta content="5514464" name="octolytics-dimension-user_id" /><meta content="sarteleb" name="octolytics-dimension-user_login" /><meta content="30877006" name="octolytics-dimension-repository_id" /><meta content="sarteleb/tc359-project6" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="30877006" name="octolytics-dimension-repository_network_root_id" /><meta content="sarteleb/tc359-project6" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/sarteleb/tc359-project6/commits/master.atom" rel="alternate" title="Recent Commits to tc359-project6:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in  env-production windows vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <form accept-charset="UTF-8" action="/sarteleb/tc359-project6/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/sarteleb/tc359-project6/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+      </div>
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item explore">
+          <a class="header-nav-link" href="/explore" data-ga-click="Header, go to explore, text:explore">Explore</a>
+        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="Header, go to blog, text:blog">Blog</a>
+          </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
+        </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name" href="/colsonc1" data-ga-click="Header, go to profile, text:username">
+      <img alt="colsonc1" class="avatar" data-user="5367121" height="20" src="https://avatars2.githubusercontent.com/u/5367121?v=3&amp;s=40" width="20" />
+      <span class="css-truncate">
+        <span class="css-truncate-target">colsonc1</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link js-menu-target tooltipped tooltipped-s" href="#" aria-label="Create new..." data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new" data-ga-click="Header, create new repository, icon:repo"><span class="octicon octicon-repo"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new" data-ga-click="Header, create new organization, icon:organization"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="dropdown-divider"></li>
+    <li class="dropdown-header">
+      <span title="sarteleb/tc359-project6">This repository</span>
+    </li>
+      <li>
+        <a href="/sarteleb/tc359-project6/issues/new" data-ga-click="Header, create new issue, icon:issue"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+    </div>
+  </li>
+
+  <li class="header-nav-item">
+        <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status all-read"></span>
+        <span class="octicon octicon-inbox"></span>
+</a>
+  </li>
+
+  <li class="header-nav-item">
+    <a class="header-nav-link tooltipped tooltipped-s" href="/settings/profile" id="account_settings" aria-label="Settings" data-ga-click="Header, go to settings, icon:settings">
+      <span class="octicon octicon-gear"></span>
+    </a>
+  </li>
+
+  <li class="header-nav-item">
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="WDGL5EACmdUdn0XVlsuv7excIjRM2lMZbVjzN2kQrAnWbSJ+JerpKnxSe/UJ3Tya/uZlrI6pUb9UZ0qRtAvKbA==" /></div>
+      <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
+        <span class="octicon octicon-sign-out"></span>
+      </button>
+</form>  </li>
+
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Nt7ex0gxy+KTTKkBfiJv84t4X8Km7VIS16g2vey3cOdTq2As/Hf7Wkxg1BAQiFIwvaQkxJNMO+/JJWuiF1zmUg==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="30877006" />
+
+      <div class="select-menu js-menu-container js-select-menu">
+        <a class="social-count js-social-count" href="/sarteleb/tc359-project6/watchers">
+          1
+        </a>
+        <a href="/sarteleb/tc359-project6/subscription"
+          class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+          <span class="js-select-button">
+            <span class="octicon octicon-eye"></span>
+            Watch
+          </span>
+        </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header">
+              <span class="select-menu-title">Notifications</span>
+              <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+            </div>
+
+            <div class="select-menu-list js-navigation-container" role="menu">
+
+              <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                  <span class="select-menu-item-heading">Not watching</span>
+                  <span class="description">Be notified when participating or @mentioned.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                  <span class="select-menu-item-heading">Watching</span>
+                  <span class="description">Be notified of all conversations.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Unwatch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_ignore" name="do" type="radio" value="ignore" />
+                  <span class="select-menu-item-heading">Ignoring</span>
+                  <span class="description">Never be notified.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-mute"></span>
+                    Stop ignoring
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+</form>
+
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <form accept-charset="UTF-8" action="/sarteleb/tc359-project6/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="09McCaCBbc8Wtfq4JL17G+1xRzFSb/LNl4hKhjE/8XJSqLQ1abgwDuXku4dreNfVyNGKfpilSYM9lEHitP9j0A==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar sarteleb/tc359-project6">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/sarteleb/tc359-project6/stargazers">
+          0
+        </a>
+</form>
+    <form accept-charset="UTF-8" action="/sarteleb/tc359-project6/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/Hsdp6RScOYd20+7mywIWJCjy+MJu9H+EjJA0ix8BkfSkKDnRpqSnuWP4x29/dPnYXcOIWPIT6ZMuP0H1blOSg==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target"
+        aria-label="Star this repository" title="Star sarteleb/tc359-project6">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/sarteleb/tc359-project6/stargazers">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+        <li>
+          <a href="/sarteleb/tc359-project6/fork" class="minibutton with-count js-toggler-target tooltipped-n" title="Fork your own copy of sarteleb/tc359-project6 to your account" aria-label="Fork your own copy of sarteleb/tc359-project6 to your account" rel="nofollow" data-method="post">
+            <span class="octicon octicon-repo-forked"></span>
+            Fork
+          </a>
+          <a href="/sarteleb/tc359-project6/network" class="social-count">0</a>
+        </li>
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/sarteleb" class="url fn" itemprop="url" rel="author"><span itemprop="title">sarteleb</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/sarteleb/tc359-project6" class="js-current-repository" data-pjax="#js-repo-pjax-container">tc359-project6</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/sarteleb/tc359-project6/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/sarteleb/tc359-project6" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /sarteleb/tc359-project6">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/sarteleb/tc359-project6/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /sarteleb/tc359-project6/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+      <a href="/sarteleb/tc359-project6/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /sarteleb/tc359-project6/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/sarteleb/tc359-project6/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /sarteleb/tc359-project6/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/sarteleb/tc359-project6/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /sarteleb/tc359-project6/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/sarteleb/tc359-project6/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /sarteleb/tc359-project6/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/sarteleb/tc359-project6.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="git@github.com:sarteleb/tc359-project6.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/sarteleb/tc359-project6" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+  <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>, <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>, or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+  <a href="github-windows://openRepo/https://github.com/sarteleb/tc359-project6" class="minibutton sidebar-button" title="Save sarteleb/tc359-project6 to your computer and use it in GitHub Desktop." aria-label="Save sarteleb/tc359-project6 to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+                <a href="/sarteleb/tc359-project6/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of sarteleb/tc359-project6 as a zip file"
+                   title="Download the contents of sarteleb/tc359-project6 as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<a href="/sarteleb/tc359-project6/blob/ae35478f1f24d91ba5cb1cc6b70ac873220b85f4/public/css/bootstrap-theme.css.map" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:fa784a71516e9e74ccbae392c55d8a61 -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/sarteleb/tc359-project6/blob/master/public/css/bootstrap-theme.css.map"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="button-group right">
+    <a href="/sarteleb/tc359-project6/find/master"
+          class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
+          data-pjax
+          data-hotkey="t"
+          aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
+
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/sarteleb/tc359-project6" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">tc359-project6</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/sarteleb/tc359-project6/tree/master/public" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">public</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/sarteleb/tc359-project6/tree/master/public/css" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">css</span></a></span><span class="separator">/</span><strong class="final-path">bootstrap-theme.css.map</strong>
+  </div>
+</div>
+
+<include-fragment class="commit commit-loader file-history-tease" src="/sarteleb/tc359-project6/contributors/master/public/css/bootstrap-theme.css.map">
+  <div class="file-history-tease-header">
+    Fetching contributors&hellip;
+  </div>
+
+  <div class="participation">
+    <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-EAF2F5-0bdc57d34b85c4a4de9d0d1db10cd70e8a95f33ff4f46c5a8c48b4bf4e5a9abe.gif" width="16" /></p>
+    <p class="loader-error">Cannot retrieve contributors at this time</p>
+  </div>
+</include-fragment>
+<div class="file">
+  <div class="file-header">
+    <div class="file-info">
+        1 lines (1 sloc)
+        <span class="file-info-divider"></span>
+      43.339 kb
+    </div>
+    <div class="file-actions">
+      <div class="button-group">
+        <a href="/sarteleb/tc359-project6/raw/master/public/css/bootstrap-theme.css.map" class="minibutton " id="raw-url">Raw</a>
+          <a href="/sarteleb/tc359-project6/blame/master/public/css/bootstrap-theme.css.map" class="minibutton js-update-url-with-hash">Blame</a>
+        <a href="/sarteleb/tc359-project6/commits/master/public/css/bootstrap-theme.css.map" class="minibutton " rel="nofollow">History</a>
+      </div><!-- /.button-group -->
+
+        <a class="octicon-button tooltipped tooltipped-nw"
+           href="github-windows://openRepo/https://github.com/sarteleb/tc359-project6?branch=master&amp;filepath=public%2Fcss%2Fbootstrap-theme.css.map" aria-label="Open this file in GitHub for Windows">
+            <span class="octicon octicon-device-desktop"></span>
+        </a>
+
+            <a class="octicon-button tooltipped tooltipped-n js-update-url-with-hash"
+               aria-label="Clicking this button will fork this project so you can edit the file"
+               href="/sarteleb/tc359-project6/edit/master/public/css/bootstrap-theme.css.map"
+               data-method="post" rel="nofollow"><span class="octicon octicon-pencil"></span></a>
+
+          <a class="octicon-button danger tooltipped tooltipped-s"
+             href="/sarteleb/tc359-project6/delete/master/public/css/bootstrap-theme.css.map"
+             aria-label="Fork this project and delete file"
+             data-method="post" data-test-id="delete-blob-file" rel="nofollow">
+        <span class="octicon octicon-trashcan"></span>
+      </a>
+    </div><!-- /.actions -->
+  </div>
+  
+
+  <div class="blob-wrapper data type-text">
+      <table class="highlight tab-size-8 js-file-line-container">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code js-file-line">{&quot;version&quot;:3,&quot;sources&quot;:[&quot;less/theme.less&quot;,&quot;less/mixins/vendor-prefixes.less&quot;,&quot;bootstrap-theme.css&quot;,&quot;less/mixins/gradients.less&quot;,&quot;less/mixins/reset-filter.less&quot;],&quot;names&quot;:[],&quot;mappings&quot;:&quot;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&quot;,&quot;file&quot;:&quot;bootstrap-theme.css&quot;,&quot;sourcesContent&quot;:[&quot;\n//\n// Load core variables and mixins\n// --------------------------------------------------\n\n@import \&quot;variables.less\&quot;;\n@import \&quot;mixins.less\&quot;;\n\n\n//\n// Buttons\n// --------------------------------------------------\n\n// Common styles\n.btn-default,\n.btn-primary,\n.btn-success,\n.btn-info,\n.btn-warning,\n.btn-danger {\n  text-shadow: 0 -1px 0 rgba(0,0,0,.2);\n  @shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);\n  .box-shadow(@shadow);\n\n  // Reset the shadow\n  &amp;:active,\n  &amp;.active {\n    .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));\n  }\n\n  .badge {\n    text-shadow: none;\n  }\n}\n\n// Mixin for generating new styles\n.btn-styles(@btn-color: #555) {\n  #gradient &gt; .vertical(@start-color: @btn-color; @end-color: darken(@btn-color, 12%));\n  .reset-filter(); // Disable gradients for IE9 because filter bleeds through rounded corners; see https://github.com/twbs/bootstrap/issues/10620\n  background-repeat: repeat-x;\n  border-color: darken(@btn-color, 14%);\n\n  &amp;:hover,\n  &amp;:focus  {\n    background-color: darken(@btn-color, 12%);\n    background-position: 0 -15px;\n  }\n\n  &amp;:active,\n  &amp;.active {\n    background-color: darken(@btn-color, 12%);\n    border-color: darken(@btn-color, 14%);\n  }\n\n  &amp;.disabled,\n  &amp;:disabled,\n  &amp;[disabled] {\n    background-color: darken(@btn-color, 12%);\n    background-image: none;\n  }\n}\n\n// Common styles\n.btn {\n  // Remove the gradient for the pressed/active state\n  &amp;:active,\n  &amp;.active {\n    background-image: none;\n  }\n}\n\n// Apply the mixin to the buttons\n.btn-default { .btn-styles(@btn-default-bg); text-shadow: 0 1px 0 #fff; border-color: #ccc; }\n.btn-primary { .btn-styles(@btn-primary-bg); }\n.btn-success { .btn-styles(@btn-success-bg); }\n.btn-info    { .btn-styles(@btn-info-bg); }\n.btn-warning { .btn-styles(@btn-warning-bg); }\n.btn-danger  { .btn-styles(@btn-danger-bg); }\n\n\n//\n// Images\n// --------------------------------------------------\n\n.thumbnail,\n.img-thumbnail {\n  .box-shadow(0 1px 2px rgba(0,0,0,.075));\n}\n\n\n//\n// Dropdowns\n// --------------------------------------------------\n\n.dropdown-menu &gt; li &gt; a:hover,\n.dropdown-menu &gt; li &gt; a:focus {\n  #gradient &gt; .vertical(@start-color: @dropdown-link-hover-bg; @end-color: darken(@dropdown-link-hover-bg, 5%));\n  background-color: darken(@dropdown-link-hover-bg, 5%);\n}\n.dropdown-menu &gt; .active &gt; a,\n.dropdown-menu &gt; .active &gt; a:hover,\n.dropdown-menu &gt; .active &gt; a:focus {\n  #gradient &gt; .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));\n  background-color: darken(@dropdown-link-active-bg, 5%);\n}\n\n\n//\n// Navbar\n// --------------------------------------------------\n\n// Default navbar\n.navbar-default {\n  #gradient &gt; .vertical(@start-color: lighten(@navbar-default-bg, 10%); @end-color: @navbar-default-bg);\n  .reset-filter(); // Remove gradient in IE&lt;10 to fix bug where dropdowns don&#39;t get triggered\n  border-radius: @navbar-border-radius;\n  @shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);\n  .box-shadow(@shadow);\n\n  .navbar-nav &gt; .open &gt; a,\n  .navbar-nav &gt; .active &gt; a {\n    #gradient &gt; .vertical(@start-color: darken(@navbar-default-link-active-bg, 5%); @end-color: darken(@navbar-default-link-active-bg, 2%));\n    .box-shadow(inset 0 3px 9px rgba(0,0,0,.075));\n  }\n}\n.navbar-brand,\n.navbar-nav &gt; li &gt; a {\n  text-shadow: 0 1px 0 rgba(255,255,255,.25);\n}\n\n// Inverted navbar\n.navbar-inverse {\n  #gradient &gt; .vertical(@start-color: lighten(@navbar-inverse-bg, 10%); @end-color: @navbar-inverse-bg);\n  .reset-filter(); // Remove gradient in IE&lt;10 to fix bug where dropdowns don&#39;t get triggered; see https://github.com/twbs/bootstrap/issues/10257\n\n  .navbar-nav &gt; .open &gt; a,\n  .navbar-nav &gt; .active &gt; a {\n    #gradient &gt; .vertical(@start-color: @navbar-inverse-link-active-bg; @end-color: lighten(@navbar-inverse-link-active-bg, 2.5%));\n    .box-shadow(inset 0 3px 9px rgba(0,0,0,.25));\n  }\n\n  .navbar-brand,\n  .navbar-nav &gt; li &gt; a {\n    text-shadow: 0 -1px 0 rgba(0,0,0,.25);\n  }\n}\n\n// Undo rounded corners in static and fixed navbars\n.navbar-static-top,\n.navbar-fixed-top,\n.navbar-fixed-bottom {\n  border-radius: 0;\n}\n\n// Fix active state of dropdown items in collapsed mode\n@media (max-width: @grid-float-breakpoint-max) {\n  .navbar .navbar-nav .open .dropdown-menu &gt; .active &gt; a {\n    &amp;,\n    &amp;:hover,\n    &amp;:focus {\n      color: #fff;\n      #gradient &gt; .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));\n    }\n  }\n}\n\n\n//\n// Alerts\n// --------------------------------------------------\n\n// Common styles\n.alert {\n  text-shadow: 0 1px 0 rgba(255,255,255,.2);\n  @shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);\n  .box-shadow(@shadow);\n}\n\n// Mixin for generating new styles\n.alert-styles(@color) {\n  #gradient &gt; .vertical(@start-color: @color; @end-color: darken(@color, 7.5%));\n  border-color: darken(@color, 15%);\n}\n\n// Apply the mixin to the alerts\n.alert-success    { .alert-styles(@alert-success-bg); }\n.alert-info       { .alert-styles(@alert-info-bg); }\n.alert-warning    { .alert-styles(@alert-warning-bg); }\n.alert-danger     { .alert-styles(@alert-danger-bg); }\n\n\n//\n// Progress bars\n// --------------------------------------------------\n\n// Give the progress background some depth\n.progress {\n  #gradient &gt; .vertical(@start-color: darken(@progress-bg, 4%); @end-color: @progress-bg)\n}\n\n// Mixin for generating new styles\n.progress-bar-styles(@color) {\n  #gradient &gt; .vertical(@start-color: @color; @end-color: darken(@color, 10%));\n}\n\n// Apply the mixin to the progress bars\n.progress-bar            { .progress-bar-styles(@progress-bar-bg); }\n.progress-bar-success    { .progress-bar-styles(@progress-bar-success-bg); }\n.progress-bar-info       { .progress-bar-styles(@progress-bar-info-bg); }\n.progress-bar-warning    { .progress-bar-styles(@progress-bar-warning-bg); }\n.progress-bar-danger     { .progress-bar-styles(@progress-bar-danger-bg); }\n\n// Reset the striped class because our mixins don&#39;t do multiple gradients and\n// the above custom styles override the new `.progress-bar-striped` in v3.2.0.\n.progress-bar-striped {\n  #gradient &gt; .striped();\n}\n\n\n//\n// List groups\n// --------------------------------------------------\n\n.list-group {\n  border-radius: @border-radius-base;\n  .box-shadow(0 1px 2px rgba(0,0,0,.075));\n}\n.list-group-item.active,\n.list-group-item.active:hover,\n.list-group-item.active:focus {\n  text-shadow: 0 -1px 0 darken(@list-group-active-bg, 10%);\n  #gradient &gt; .vertical(@start-color: @list-group-active-bg; @end-color: darken(@list-group-active-bg, 7.5%));\n  border-color: darken(@list-group-active-border, 7.5%);\n\n  .badge {\n    text-shadow: none;\n  }\n}\n\n\n//\n// Panels\n// --------------------------------------------------\n\n// Common styles\n.panel {\n  .box-shadow(0 1px 2px rgba(0,0,0,.05));\n}\n\n// Mixin for generating new styles\n.panel-heading-styles(@color) {\n  #gradient &gt; .vertical(@start-color: @color; @end-color: darken(@color, 5%));\n}\n\n// Apply the mixin to the panel headings only\n.panel-default &gt; .panel-heading   { .panel-heading-styles(@panel-default-heading-bg); }\n.panel-primary &gt; .panel-heading   { .panel-heading-styles(@panel-primary-heading-bg); }\n.panel-success &gt; .panel-heading   { .panel-heading-styles(@panel-success-heading-bg); }\n.panel-info &gt; .panel-heading      { .panel-heading-styles(@panel-info-heading-bg); }\n.panel-warning &gt; .panel-heading   { .panel-heading-styles(@panel-warning-heading-bg); }\n.panel-danger &gt; .panel-heading    { .panel-heading-styles(@panel-danger-heading-bg); }\n\n\n//\n// Wells\n// --------------------------------------------------\n\n.well {\n  #gradient &gt; .vertical(@start-color: darken(@well-bg, 5%); @end-color: @well-bg);\n  border-color: darken(@well-bg, 10%);\n  @shadow: inset 0 1px 3px rgba(0,0,0,.05), 0 1px 0 rgba(255,255,255,.1);\n  .box-shadow(@shadow);\n}\n&quot;,&quot;// Vendor Prefixes\n//\n// All vendor mixins are deprecated as of v3.2.0 due to the introduction of\n// Autoprefixer in our Gruntfile. They will be removed in v4.\n\n// - Animations\n// - Backface visibility\n// - Box shadow\n// - Box sizing\n// - Content columns\n// - Hyphens\n// - Placeholder text\n// - Transformations\n// - Transitions\n// - User Select\n\n\n// Animations\n.animation(@animation) {\n  -webkit-animation: @animation;\n       -o-animation: @animation;\n          animation: @animation;\n}\n.animation-name(@name) {\n  -webkit-animation-name: @name;\n          animation-name: @name;\n}\n.animation-duration(@duration) {\n  -webkit-animation-duration: @duration;\n          animation-duration: @duration;\n}\n.animation-timing-function(@timing-function) {\n  -webkit-animation-timing-function: @timing-function;\n          animation-timing-function: @timing-function;\n}\n.animation-delay(@delay) {\n  -webkit-animation-delay: @delay;\n          animation-delay: @delay;\n}\n.animation-iteration-count(@iteration-count) {\n  -webkit-animation-iteration-count: @iteration-count;\n          animation-iteration-count: @iteration-count;\n}\n.animation-direction(@direction) {\n  -webkit-animation-direction: @direction;\n          animation-direction: @direction;\n}\n.animation-fill-mode(@fill-mode) {\n  -webkit-animation-fill-mode: @fill-mode;\n          animation-fill-mode: @fill-mode;\n}\n\n// Backface visibility\n// Prevent browsers from flickering when using CSS 3D transforms.\n// Default value is `visible`, but can be changed to `hidden`\n\n.backface-visibility(@visibility){\n  -webkit-backface-visibility: @visibility;\n     -moz-backface-visibility: @visibility;\n          backface-visibility: @visibility;\n}\n\n// Drop shadows\n//\n// Note: Deprecated `.box-shadow()` as of v3.1.0 since all of Bootstrap&#39;s\n// supported browsers that have box shadow capabilities now support it.\n\n.box-shadow(@shadow) {\n  -webkit-box-shadow: @shadow; // iOS &lt;4.3 &amp; Android &lt;4.1\n          box-shadow: @shadow;\n}\n\n// Box sizing\n.box-sizing(@boxmodel) {\n  -webkit-box-sizing: @boxmodel;\n     -moz-box-sizing: @boxmodel;\n          box-sizing: @boxmodel;\n}\n\n// CSS3 Content Columns\n.content-columns(@column-count; @column-gap: @grid-gutter-width) {\n  -webkit-column-count: @column-count;\n     -moz-column-count: @column-count;\n          column-count: @column-count;\n  -webkit-column-gap: @column-gap;\n     -moz-column-gap: @column-gap;\n          column-gap: @column-gap;\n}\n\n// Optional hyphenation\n.hyphens(@mode: auto) {\n  word-wrap: break-word;\n  -webkit-hyphens: @mode;\n     -moz-hyphens: @mode;\n      -ms-hyphens: @mode; // IE10+\n       -o-hyphens: @mode;\n          hyphens: @mode;\n}\n\n// Placeholder text\n.placeholder(@color: @input-color-placeholder) {\n  // Firefox\n  &amp;::-moz-placeholder {\n    color: @color;\n    opacity: 1; // Override Firefox&#39;s unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526\n  }\n  &amp;:-ms-input-placeholder { color: @color; } // Internet Explorer 10+\n  &amp;::-webkit-input-placeholder  { color: @color; } // Safari and Chrome\n}\n\n// Transformations\n.scale(@ratio) {\n  -webkit-transform: scale(@ratio);\n      -ms-transform: scale(@ratio); // IE9 only\n       -o-transform: scale(@ratio);\n          transform: scale(@ratio);\n}\n.scale(@ratioX; @ratioY) {\n  -webkit-transform: scale(@ratioX, @ratioY);\n      -ms-transform: scale(@ratioX, @ratioY); // IE9 only\n       -o-transform: scale(@ratioX, @ratioY);\n          transform: scale(@ratioX, @ratioY);\n}\n.scaleX(@ratio) {\n  -webkit-transform: scaleX(@ratio);\n      -ms-transform: scaleX(@ratio); // IE9 only\n       -o-transform: scaleX(@ratio);\n          transform: scaleX(@ratio);\n}\n.scaleY(@ratio) {\n  -webkit-transform: scaleY(@ratio);\n      -ms-transform: scaleY(@ratio); // IE9 only\n       -o-transform: scaleY(@ratio);\n          transform: scaleY(@ratio);\n}\n.skew(@x; @y) {\n  -webkit-transform: skewX(@x) skewY(@y);\n      -ms-transform: skewX(@x) skewY(@y); // See https://github.com/twbs/bootstrap/issues/4885; IE9+\n       -o-transform: skewX(@x) skewY(@y);\n          transform: skewX(@x) skewY(@y);\n}\n.translate(@x; @y) {\n  -webkit-transform: translate(@x, @y);\n      -ms-transform: translate(@x, @y); // IE9 only\n       -o-transform: translate(@x, @y);\n          transform: translate(@x, @y);\n}\n.translate3d(@x; @y; @z) {\n  -webkit-transform: translate3d(@x, @y, @z);\n          transform: translate3d(@x, @y, @z);\n}\n.rotate(@degrees) {\n  -webkit-transform: rotate(@degrees);\n      -ms-transform: rotate(@degrees); // IE9 only\n       -o-transform: rotate(@degrees);\n          transform: rotate(@degrees);\n}\n.rotateX(@degrees) {\n  -webkit-transform: rotateX(@degrees);\n      -ms-transform: rotateX(@degrees); // IE9 only\n       -o-transform: rotateX(@degrees);\n          transform: rotateX(@degrees);\n}\n.rotateY(@degrees) {\n  -webkit-transform: rotateY(@degrees);\n      -ms-transform: rotateY(@degrees); // IE9 only\n       -o-transform: rotateY(@degrees);\n          transform: rotateY(@degrees);\n}\n.perspective(@perspective) {\n  -webkit-perspective: @perspective;\n     -moz-perspective: @perspective;\n          perspective: @perspective;\n}\n.perspective-origin(@perspective) {\n  -webkit-perspective-origin: @perspective;\n     -moz-perspective-origin: @perspective;\n          perspective-origin: @perspective;\n}\n.transform-origin(@origin) {\n  -webkit-transform-origin: @origin;\n     -moz-transform-origin: @origin;\n      -ms-transform-origin: @origin; // IE9 only\n          transform-origin: @origin;\n}\n\n\n// Transitions\n\n.transition(@transition) {\n  -webkit-transition: @transition;\n       -o-transition: @transition;\n          transition: @transition;\n}\n.transition-property(@transition-property) {\n  -webkit-transition-property: @transition-property;\n          transition-property: @transition-property;\n}\n.transition-delay(@transition-delay) {\n  -webkit-transition-delay: @transition-delay;\n          transition-delay: @transition-delay;\n}\n.transition-duration(@transition-duration) {\n  -webkit-transition-duration: @transition-duration;\n          transition-duration: @transition-duration;\n}\n.transition-timing-function(@timing-function) {\n  -webkit-transition-timing-function: @timing-function;\n          transition-timing-function: @timing-function;\n}\n.transition-transform(@transition) {\n  -webkit-transition: -webkit-transform @transition;\n     -moz-transition: -moz-transform @transition;\n       -o-transition: -o-transform @transition;\n          transition: transform @transition;\n}\n\n\n// User select\n// For selecting text on the page\n\n.user-select(@select) {\n  -webkit-user-select: @select;\n     -moz-user-select: @select;\n      -ms-user-select: @select; // IE10+\n          user-select: @select;\n}\n&quot;,&quot;.btn-default,\n.btn-primary,\n.btn-success,\n.btn-info,\n.btn-warning,\n.btn-danger {\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);\n  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);\n  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);\n}\n.btn-default:active,\n.btn-primary:active,\n.btn-success:active,\n.btn-info:active,\n.btn-warning:active,\n.btn-danger:active,\n.btn-default.active,\n.btn-primary.active,\n.btn-success.active,\n.btn-info.active,\n.btn-warning.active,\n.btn-danger.active {\n  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n}\n.btn-default .badge,\n.btn-primary .badge,\n.btn-success .badge,\n.btn-info .badge,\n.btn-warning .badge,\n.btn-danger .badge {\n  text-shadow: none;\n}\n.btn:active,\n.btn.active {\n  background-image: none;\n}\n.btn-default {\n  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);\n  background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);\n  background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffffffff&#39;, endColorstr=&#39;#ffe0e0e0&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #dbdbdb;\n  text-shadow: 0 1px 0 #fff;\n  border-color: #ccc;\n}\n.btn-default:hover,\n.btn-default:focus {\n  background-color: #e0e0e0;\n  background-position: 0 -15px;\n}\n.btn-default:active,\n.btn-default.active {\n  background-color: #e0e0e0;\n  border-color: #dbdbdb;\n}\n.btn-default.disabled,\n.btn-default:disabled,\n.btn-default[disabled] {\n  background-color: #e0e0e0;\n  background-image: none;\n}\n.btn-primary {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #265a88 100%);\n  background-image: -o-linear-gradient(top, #337ab7 0%, #265a88 100%);\n  background-image: linear-gradient(to bottom, #337ab7 0%, #265a88 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff337ab7&#39;, endColorstr=&#39;#ff265a88&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #245580;\n}\n.btn-primary:hover,\n.btn-primary:focus {\n  background-color: #265a88;\n  background-position: 0 -15px;\n}\n.btn-primary:active,\n.btn-primary.active {\n  background-color: #265a88;\n  border-color: #245580;\n}\n.btn-primary.disabled,\n.btn-primary:disabled,\n.btn-primary[disabled] {\n  background-color: #265a88;\n  background-image: none;\n}\n.btn-success {\n  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);\n  background-image: -o-linear-gradient(top, #5cb85c 0%, #419641 100%);\n  background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff5cb85c&#39;, endColorstr=&#39;#ff419641&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #3e8f3e;\n}\n.btn-success:hover,\n.btn-success:focus {\n  background-color: #419641;\n  background-position: 0 -15px;\n}\n.btn-success:active,\n.btn-success.active {\n  background-color: #419641;\n  border-color: #3e8f3e;\n}\n.btn-success.disabled,\n.btn-success:disabled,\n.btn-success[disabled] {\n  background-color: #419641;\n  background-image: none;\n}\n.btn-info {\n  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);\n  background-image: -o-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);\n  background-image: linear-gradient(to bottom, #5bc0de 0%, #2aabd2 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff5bc0de&#39;, endColorstr=&#39;#ff2aabd2&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #28a4c9;\n}\n.btn-info:hover,\n.btn-info:focus {\n  background-color: #2aabd2;\n  background-position: 0 -15px;\n}\n.btn-info:active,\n.btn-info.active {\n  background-color: #2aabd2;\n  border-color: #28a4c9;\n}\n.btn-info.disabled,\n.btn-info:disabled,\n.btn-info[disabled] {\n  background-color: #2aabd2;\n  background-image: none;\n}\n.btn-warning {\n  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);\n  background-image: -o-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);\n  background-image: linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff0ad4e&#39;, endColorstr=&#39;#ffeb9316&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #e38d13;\n}\n.btn-warning:hover,\n.btn-warning:focus {\n  background-color: #eb9316;\n  background-position: 0 -15px;\n}\n.btn-warning:active,\n.btn-warning.active {\n  background-color: #eb9316;\n  border-color: #e38d13;\n}\n.btn-warning.disabled,\n.btn-warning:disabled,\n.btn-warning[disabled] {\n  background-color: #eb9316;\n  background-image: none;\n}\n.btn-danger {\n  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);\n  background-image: -o-linear-gradient(top, #d9534f 0%, #c12e2a 100%);\n  background-image: linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffd9534f&#39;, endColorstr=&#39;#ffc12e2a&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #b92c28;\n}\n.btn-danger:hover,\n.btn-danger:focus {\n  background-color: #c12e2a;\n  background-position: 0 -15px;\n}\n.btn-danger:active,\n.btn-danger.active {\n  background-color: #c12e2a;\n  border-color: #b92c28;\n}\n.btn-danger.disabled,\n.btn-danger:disabled,\n.btn-danger[disabled] {\n  background-color: #c12e2a;\n  background-image: none;\n}\n.thumbnail,\n.img-thumbnail {\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);\n}\n.dropdown-menu &gt; li &gt; a:hover,\n.dropdown-menu &gt; li &gt; a:focus {\n  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image: -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff5f5f5&#39;, endColorstr=&#39;#ffe8e8e8&#39;, GradientType=0);\n  background-color: #e8e8e8;\n}\n.dropdown-menu &gt; .active &gt; a,\n.dropdown-menu &gt; .active &gt; a:hover,\n.dropdown-menu &gt; .active &gt; a:focus {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff337ab7&#39;, endColorstr=&#39;#ff2e6da4&#39;, GradientType=0);\n  background-color: #2e6da4;\n}\n.navbar-default {\n  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);\n  background-image: -o-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);\n  background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffffffff&#39;, endColorstr=&#39;#fff8f8f8&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);\n  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);\n}\n.navbar-default .navbar-nav &gt; .open &gt; a,\n.navbar-default .navbar-nav &gt; .active &gt; a {\n  background-image: -webkit-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);\n  background-image: -o-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);\n  background-image: linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffdbdbdb&#39;, endColorstr=&#39;#ffe2e2e2&#39;, GradientType=0);\n  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);\n  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);\n}\n.navbar-brand,\n.navbar-nav &gt; li &gt; a {\n  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);\n}\n.navbar-inverse {\n  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);\n  background-image: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);\n  background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff3c3c3c&#39;, endColorstr=&#39;#ff222222&#39;, GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n}\n.navbar-inverse .navbar-nav &gt; .open &gt; a,\n.navbar-inverse .navbar-nav &gt; .active &gt; a {\n  background-image: -webkit-linear-gradient(top, #080808 0%, #0f0f0f 100%);\n  background-image: -o-linear-gradient(top, #080808 0%, #0f0f0f 100%);\n  background-image: linear-gradient(to bottom, #080808 0%, #0f0f0f 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff080808&#39;, endColorstr=&#39;#ff0f0f0f&#39;, GradientType=0);\n  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);\n  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);\n}\n.navbar-inverse .navbar-brand,\n.navbar-inverse .navbar-nav &gt; li &gt; a {\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);\n}\n.navbar-static-top,\n.navbar-fixed-top,\n.navbar-fixed-bottom {\n  border-radius: 0;\n}\n@media (max-width: 767px) {\n  .navbar .navbar-nav .open .dropdown-menu &gt; .active &gt; a,\n  .navbar .navbar-nav .open .dropdown-menu &gt; .active &gt; a:hover,\n  .navbar .navbar-nav .open .dropdown-menu &gt; .active &gt; a:focus {\n    color: #fff;\n    background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n    background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n    background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);\n    background-repeat: repeat-x;\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff337ab7&#39;, endColorstr=&#39;#ff2e6da4&#39;, GradientType=0);\n  }\n}\n.alert {\n  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);\n  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);\n  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 2px rgba(0, 0, 0, 0.05);\n}\n.alert-success {\n  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);\n  background-image: -o-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);\n  background-image: linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffdff0d8&#39;, endColorstr=&#39;#ffc8e5bc&#39;, GradientType=0);\n  border-color: #b2dba1;\n}\n.alert-info {\n  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #b9def0 100%);\n  background-image: -o-linear-gradient(top, #d9edf7 0%, #b9def0 100%);\n  background-image: linear-gradient(to bottom, #d9edf7 0%, #b9def0 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffd9edf7&#39;, endColorstr=&#39;#ffb9def0&#39;, GradientType=0);\n  border-color: #9acfea;\n}\n.alert-warning {\n  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);\n  background-image: -o-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);\n  background-image: linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fffcf8e3&#39;, endColorstr=&#39;#fff8efc0&#39;, GradientType=0);\n  border-color: #f5e79e;\n}\n.alert-danger {\n  background-image: -webkit-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);\n  background-image: -o-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);\n  background-image: linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff2dede&#39;, endColorstr=&#39;#ffe7c3c3&#39;, GradientType=0);\n  border-color: #dca7a7;\n}\n.progress {\n  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);\n  background-image: -o-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);\n  background-image: linear-gradient(to bottom, #ebebeb 0%, #f5f5f5 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffebebeb&#39;, endColorstr=&#39;#fff5f5f5&#39;, GradientType=0);\n}\n.progress-bar {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #286090 100%);\n  background-image: -o-linear-gradient(top, #337ab7 0%, #286090 100%);\n  background-image: linear-gradient(to bottom, #337ab7 0%, #286090 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff337ab7&#39;, endColorstr=&#39;#ff286090&#39;, GradientType=0);\n}\n.progress-bar-success {\n  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #449d44 100%);\n  background-image: -o-linear-gradient(top, #5cb85c 0%, #449d44 100%);\n  background-image: linear-gradient(to bottom, #5cb85c 0%, #449d44 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff5cb85c&#39;, endColorstr=&#39;#ff449d44&#39;, GradientType=0);\n}\n.progress-bar-info {\n  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);\n  background-image: -o-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);\n  background-image: linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff5bc0de&#39;, endColorstr=&#39;#ff31b0d5&#39;, GradientType=0);\n}\n.progress-bar-warning {\n  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);\n  background-image: -o-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);\n  background-image: linear-gradient(to bottom, #f0ad4e 0%, #ec971f 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff0ad4e&#39;, endColorstr=&#39;#ffec971f&#39;, GradientType=0);\n}\n.progress-bar-danger {\n  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c9302c 100%);\n  background-image: -o-linear-gradient(top, #d9534f 0%, #c9302c 100%);\n  background-image: linear-gradient(to bottom, #d9534f 0%, #c9302c 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffd9534f&#39;, endColorstr=&#39;#ffc9302c&#39;, GradientType=0);\n}\n.progress-bar-striped {\n  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\n  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\n  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);\n}\n.list-group {\n  border-radius: 4px;\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);\n}\n.list-group-item.active,\n.list-group-item.active:hover,\n.list-group-item.active:focus {\n  text-shadow: 0 -1px 0 #286090;\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2b669a 100%);\n  background-image: -o-linear-gradient(top, #337ab7 0%, #2b669a 100%);\n  background-image: linear-gradient(to bottom, #337ab7 0%, #2b669a 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff337ab7&#39;, endColorstr=&#39;#ff2b669a&#39;, GradientType=0);\n  border-color: #2b669a;\n}\n.list-group-item.active .badge,\n.list-group-item.active:hover .badge,\n.list-group-item.active:focus .badge {\n  text-shadow: none;\n}\n.panel {\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n}\n.panel-default &gt; .panel-heading {\n  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image: -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff5f5f5&#39;, endColorstr=&#39;#ffe8e8e8&#39;, GradientType=0);\n}\n.panel-primary &gt; .panel-heading {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ff337ab7&#39;, endColorstr=&#39;#ff2e6da4&#39;, GradientType=0);\n}\n.panel-success &gt; .panel-heading {\n  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);\n  background-image: -o-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);\n  background-image: linear-gradient(to bottom, #dff0d8 0%, #d0e9c6 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffdff0d8&#39;, endColorstr=&#39;#ffd0e9c6&#39;, GradientType=0);\n}\n.panel-info &gt; .panel-heading {\n  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);\n  background-image: -o-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);\n  background-image: linear-gradient(to bottom, #d9edf7 0%, #c4e3f3 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffd9edf7&#39;, endColorstr=&#39;#ffc4e3f3&#39;, GradientType=0);\n}\n.panel-warning &gt; .panel-heading {\n  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);\n  background-image: -o-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);\n  background-image: linear-gradient(to bottom, #fcf8e3 0%, #faf2cc 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fffcf8e3&#39;, endColorstr=&#39;#fffaf2cc&#39;, GradientType=0);\n}\n.panel-danger &gt; .panel-heading {\n  background-image: -webkit-linear-gradient(top, #f2dede 0%, #ebcccc 100%);\n  background-image: -o-linear-gradient(top, #f2dede 0%, #ebcccc 100%);\n  background-image: linear-gradient(to bottom, #f2dede 0%, #ebcccc 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#fff2dede&#39;, endColorstr=&#39;#ffebcccc&#39;, GradientType=0);\n}\n.well {\n  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);\n  background-image: -o-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);\n  background-image: linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ffe8e8e8&#39;, endColorstr=&#39;#fff5f5f5&#39;, GradientType=0);\n  border-color: #dcdcdc;\n  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);\n  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);\n}\n/*# sourceMappingURL=bootstrap-theme.css.map */&quot;,&quot;// Gradients\n\n#gradient {\n\n  // Horizontal gradient, from left to right\n  //\n  // Creates two color stops, start and end, by specifying a color and position for each color stop.\n  // Color stops are not available in IE9 and below.\n  .horizontal(@start-color: #555; @end-color: #333; @start-percent: 0%; @end-percent: 100%) {\n    background-image: -webkit-linear-gradient(left, @start-color @start-percent, @end-color @end-percent); // Safari 5.1-6, Chrome 10+\n    background-image: -o-linear-gradient(left, @start-color @start-percent, @end-color @end-percent); // Opera 12\n    background-image: linear-gradient(to right, @start-color @start-percent, @end-color @end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+\n    background-repeat: repeat-x;\n    filter: e(%(\&quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;%d&#39;, endColorstr=&#39;%d&#39;, GradientType=1)\&quot;,argb(@start-color),argb(@end-color))); // IE9 and down\n  }\n\n  // Vertical gradient, from top to bottom\n  //\n  // Creates two color stops, start and end, by specifying a color and position for each color stop.\n  // Color stops are not available in IE9 and below.\n  .vertical(@start-color: #555; @end-color: #333; @start-percent: 0%; @end-percent: 100%) {\n    background-image: -webkit-linear-gradient(top, @start-color @start-percent, @end-color @end-percent);  // Safari 5.1-6, Chrome 10+\n    background-image: -o-linear-gradient(top, @start-color @start-percent, @end-color @end-percent);  // Opera 12\n    background-image: linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+\n    background-repeat: repeat-x;\n    filter: e(%(\&quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;%d&#39;, endColorstr=&#39;%d&#39;, GradientType=0)\&quot;,argb(@start-color),argb(@end-color))); // IE9 and down\n  }\n\n  .directional(@start-color: #555; @end-color: #333; @deg: 45deg) {\n    background-repeat: repeat-x;\n    background-image: -webkit-linear-gradient(@deg, @start-color, @end-color); // Safari 5.1-6, Chrome 10+\n    background-image: -o-linear-gradient(@deg, @start-color, @end-color); // Opera 12\n    background-image: linear-gradient(@deg, @start-color, @end-color); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+\n  }\n  .horizontal-three-colors(@start-color: #00b3ee; @mid-color: #7a43b6; @color-stop: 50%; @end-color: #c3325f) {\n    background-image: -webkit-linear-gradient(left, @start-color, @mid-color @color-stop, @end-color);\n    background-image: -o-linear-gradient(left, @start-color, @mid-color @color-stop, @end-color);\n    background-image: linear-gradient(to right, @start-color, @mid-color @color-stop, @end-color);\n    background-repeat: no-repeat;\n    filter: e(%(\&quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;%d&#39;, endColorstr=&#39;%d&#39;, GradientType=1)\&quot;,argb(@start-color),argb(@end-color))); // IE9 and down, gets no color-stop at all for proper fallback\n  }\n  .vertical-three-colors(@start-color: #00b3ee; @mid-color: #7a43b6; @color-stop: 50%; @end-color: #c3325f) {\n    background-image: -webkit-linear-gradient(@start-color, @mid-color @color-stop, @end-color);\n    background-image: -o-linear-gradient(@start-color, @mid-color @color-stop, @end-color);\n    background-image: linear-gradient(@start-color, @mid-color @color-stop, @end-color);\n    background-repeat: no-repeat;\n    filter: e(%(\&quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;%d&#39;, endColorstr=&#39;%d&#39;, GradientType=0)\&quot;,argb(@start-color),argb(@end-color))); // IE9 and down, gets no color-stop at all for proper fallback\n  }\n  .radial(@inner-color: #555; @outer-color: #333) {\n    background-image: -webkit-radial-gradient(circle, @inner-color, @outer-color);\n    background-image: radial-gradient(circle, @inner-color, @outer-color);\n    background-repeat: no-repeat;\n  }\n  .striped(@color: rgba(255,255,255,.15); @angle: 45deg) {\n    background-image: -webkit-linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);\n    background-image: -o-linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);\n    background-image: linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);\n  }\n}\n&quot;,&quot;// Reset filters for IE\n//\n// When you need to remove a gradient background, do not forget to use this to reset\n// the IE filter for IE9 and below.\n\n.reset-filter() {\n  filter: e(%(\&quot;progid:DXImageTransform.Microsoft.gradient(enabled = false)\&quot;));\n}\n&quot;]}</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="http://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="http://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.13776s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-9643b0378c6bcb216adcdaaaa703eed77aa239aaf1c2ae44cadb2fb5099ec172.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-e481d46e78f12279d9b4fec62c9f7f79d748386efa94431f30b84db4fe996902.js"></script>
+      
+      
+
+  </body>
+</html>
+
