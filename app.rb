@@ -1,18 +1,16 @@
-# app.rb
 require 'sinatra'
-require 'cat_api'
 require 'holidapi'
 
 
 class MyWebApp < Sinatra::Base
-  get '/' do
-    daysInMonth = [nil, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    time = Time.new
+	get '/' do
 
-    @holidays = HolidApi.get(country: 'us', year: time.year, month: time.month).flatten
-	@birthdayHolidays = HolidApi.get(country: 'us', year: 1991, month: 4).flatten
+		params['month'] ||= Time.new.month
+		params['day'] ||= Time.new.day
+		params['year'] ||= Time.new.year
 
-    @time = time
-    erb :index
-  end
+		@Holidays_Date = HolidApi.get(month: params['month'], day: params['day'], year: params['year'])
+
+		erb :index
+	end
 end

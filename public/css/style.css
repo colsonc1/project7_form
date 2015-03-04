@@ -1,4 +1,15 @@
-background: {
-  color: orange;
+body {
+	background-color: red;
+}
 
+form {
+	margin: 0 auto;
+	width: 250px;
+	padding: 10px;
+	border: 4px solid gray;
+}
+
+div {
+	margin: 0 auto;
+	width: 250px;
 }
